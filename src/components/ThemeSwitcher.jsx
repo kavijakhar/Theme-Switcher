@@ -4,8 +4,8 @@ import UserProfileCard from './UserProfileCard';
 
 const ThemeSwitcher = () => {
     const { toggleTheme, applyCustomTheme, theme, customTheme, isCustomThemeApplied } = useContext(ThemeContext);
-    const [bgColor, setBgColor] = useState('');
-    const [textColor, setTextColor] = useState('');
+    const [bgColor, setBgColor] = useState('white');
+    const [textColor, setTextColor] = useState('black');
 
     const handleCustomTheme = () => {
         applyCustomTheme(bgColor, textColor);
