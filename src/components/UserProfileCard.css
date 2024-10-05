@@ -1,0 +1,39 @@
+.user-profile-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    max-width: 300px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .user-details h2 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  /* Light theme */
+  .user-profile-card.light {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Dark theme */
+  .user-profile-card.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
